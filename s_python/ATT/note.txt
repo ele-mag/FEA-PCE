@@ -1,0 +1,18 @@
+! Device:      HMC424A-DIE								
+! Description: 0.5 dB LSB GaAs MMIC 6-Bit Digital Attenuator								
+! Frequency:   DC -  13 GHz								
+! Ports:       								
+! 	RF1	= Port 1						
+!	RF2	= Port 2						
+!								
+! Vee:          -5 Volt								
+! Control:      0/-5 Volt control voltage																
+!								
+! Data:	The device was measured using G-S-G Probes at the chip ports.					
+!	Data was collected using an calibrated 2 port network analyzer.					
+!	The reference plane is the pads on the digital attenuator chip.					
+!						
+! Note:	Analog Devices supplies this data as a sample of measured data at the die pad					
+!	for this product.  Your particular data for this product may vary.					
+!	Data was taken at +25 degrees C.					
+!	Analog Devices reserves the right to change this data at anytime.
