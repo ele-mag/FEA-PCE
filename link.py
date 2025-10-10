@@ -60,13 +60,9 @@ def TR_R():
 
     port1 = rf.Circuit.Port(freq, name="port1", z0=50)
     port2 = rf.Circuit.Port(freq, name="port2", z0=50)
-    port3 = rf.Circuit.Port(freq, name="port3", z0=50)
+
     port1.resample(freq)
     port2.resample(freq)
-    port3.resample(freq)
-    ground1 = rf.Circuit.Ground(freq, name='ground1')
-    jiedi_dianzu = rf.media.DefinedGammaZ0(frequency=freq, z0=50)
-    R1 = jiedi_dianzu.resistor(50, name='R1')
 
     for index, (name, path) in enumerate(network_files_line.items()):
         a = a_values[index]
@@ -112,4 +108,5 @@ def TR_R():
     # value = net.s_db[:, 1, 0]
     print(freq.f, value)
     return freq.f, value
+
 
